@@ -29,5 +29,5 @@ Berikut merupakan hasil pemodelan menggunakan berbagai model
 | Model | Public Test Score (30% test data) | Private Test Score (70% test data)
 | -------- | -------  | ------ |
 | Random Forest | 9.43 | 8.33 |
-| Autogluon TimeSeries |  |  |
+| Autogluon TimeSeries | 11.06 | 9.04 |
 

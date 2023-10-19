@@ -2,7 +2,7 @@
 Time Series Forecasting of Average Vehicle Speed for Ristek Datathon 2023 Competition
 
 ## Tujuan
-Project ini bertujuan untuk melakukan time series forecasting tentang kecepatan rata-rata kendaraan pada suatu jalan. Project ini 
+Project ini bertujuan untuk melakukan time series forecasting tentang kecepatan rata-rata kendaraan pada suatu jalan.
 
 ## Dataset
 Dataset utama yang digunakan dalam project ini disediakan oleh [Ristek Datathon 2023](https://www.kaggle.com/competitions/ristek-datathon-2023). Dataset yang digunakan merupakan data time series untuk berbagai jalan dengan titik mulai dan titik akhir.
@@ -14,6 +14,8 @@ Harap unduh kedua dataset terlebih dahulu untuk dapat menjalankan project beriku
 
 ## Pendekatan
 Model yang digunakan dalam Time Series Forecasting kali ini menggunakan dua pendekatan, yaitu menggunakan model Machine Learning Random Forest dan Timeseries AutoML Autogluon. 
+
+Pemodelan menggunakan model Machine Learning dapat dilihat pada branch Main dan ML, sedangakn pemodelan menggunakan Timeseries AutoML Autogluon dapat dilihat pada branch autogluon-ts
 
 ## Evaluasi dan Hasil
 Evaluasi pada pemodelan kali ini menggunakan metrics sMAPE. Implementasi sMAPE pada Python dapat ditunjukkan pada code berikut
